@@ -4,6 +4,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.header{
+    background: #FFF8F3;
+}
 .btn-primary{
     height: 64px;
     border-radius: 5px;
@@ -30,10 +33,13 @@ nav{
 
 .nav-title{
     font-weight: 800;
-    font-size: 30PX;
-    color: blue;
+    font-size: 50PX;
+    text-align: center;
+    
    
 }
+
+
 
 /* banner styles */
 
@@ -69,3 +75,36 @@ nav{
    
 
 }
+
+/* main section styling */
+
+.previous-year{
+    background: #FFF8F3;
+    background-image: url(/images/person.png);
+    backface-visibility: visible;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20px;
+    margin-left: auto;
+    
+}
+
+.previous-year .section-title{
+    margin: 116px 50px 24px 862px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.previous-year .section-description{
+    margin: 5px 50px 20px 862px;
+
+}
+
+main li{
+    list-style: none;
+    margin: 5px 50px 8px 820px;
+}
+
+
