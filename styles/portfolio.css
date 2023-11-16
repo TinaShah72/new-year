@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 26px ;
+    border: 0;
+    margin: 24px 50px 167px 1210px;
+
+}
+
+/* header and navigation styles */
+
+nav{
+    display: block;
+    justify-content: space-between;
+    margin: 50px 230px;
+   
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 30PX;
+    color: blue;
+   
+}
+
+/* banner styles */
+
+.banner{
+   
+    /* align-items: center; */
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+  background-image: url(/images/banner/banner1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+  background-position: bottom left;
+  background-blend-mode: multiply;
+    
+}
+
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: right;
+    padding: 24px 10px; 
+    padding-top: 216px;
+    margin: 100px 50px 30px 365px;
+
+}
+
+.banner-description{
+    font-size: 16px;
+    text-align: right;
+    margin: 30px 50px 24px 365px;
+   
+
+}
