@@ -32,12 +32,24 @@ nav{
 }
 
 .nav-title{
-    font-weight: 800;
-    font-size: 50PX;
+    font-weight: 600;
+    font-size: 40PX;
     text-align: center;
-    
-   
+     
 }
+.last-year{
+    font-size: 25px;
+    text-align: center;
+}
+ 
+video{
+    
+        margin-left: 28vw;
+        transform: translate(-50%);
+      
+}
+
+
 
 
 
@@ -49,12 +61,12 @@ nav{
     margin: 0 auto;
     width: 900px;
     height: 600px;
-  background-image: url(/images/banner/banner1.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+    background-image: url(/images/banner/banner1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
   
-  background-position: bottom left;
-  background-blend-mode: multiply;
+    background-position: bottom left;
+    background-blend-mode: multiply;
     
 }
 
@@ -107,4 +119,148 @@ main li{
     margin: 5px 50px 8px 820px;
 }
 
+/* planning section styles */
 
+.plan-section{
+    padding-top:100px;
+    background:#FFF8F3;
+    border-radius: 10px;
+    padding-bottom:80px;
+    
+}
+
+.habit-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.habit{
+    
+    margin:30px 30px 20px 70px;
+    border-radius: 10px;
+    box-shadow: #FFF;
+}
+
+.plan-section .section-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.habit-description{
+
+      color:  #737272;
+      font-size: 16px;
+      font-weight: 500;
+}
+
+/* mindset styles */
+
+.mindset{
+    /* box-shadow: 0px 20px 100px white; */
+    border-radius: 10px;
+    margin:60px 5px;
+    padding:100px 130px;
+    background-image: url(/images/gradient3.png), url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: top left 20px;
+    background-size: cover;
+    
+}
+
+.mindset-title{
+
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    color: #FFF8F3;
+}
+
+.btn-secondary{
+    height: 50px;
+    border-radius: 5px;
+    background: white;
+    color:  #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding:  10px 15px 10px 15px;
+    border-color: #F15B22; 
+    margin: 24px 130px 130px 30px;
+
+}
+
+/* footer stlying */
+
+.footer{
+    display: flex;
+    column-gap: 70px;
+    background-color: #FFF8F3;  
+    width: 1200px;
+    height: 570px;
+    margin: auto;
+    
+  
+}
+
+.future{ 
+     
+    display: block;
+    margin-top: 70px;
+    margin: 110px 530px 24px 40px;
+}
+
+.future-title{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+   
+
+}
+
+.future-description{
+   
+    text-align: left;
+}
+
+.future-email{
+     
+    font-size: 20px;
+}
+
+.subscribe{
+    display: block;
+    margin-top: 115px;
+    padding-right:45px;
+     padding-bottom:30px;
+
+}
+
+.subscription-title{
+    
+    font-size: 30px;
+    font-weight: 600;
+     width: 123px;
+     margin-right: auto;
+     padding-bottom:15px; 
+}
+
+.btn-footer{
+    margin-top: 15px;
+    margin-right: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: white;
+    color:  #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding:  10px 15px 10px 15px;
+    border-color: #F15B22; 
+}
+
+.future a{
+    text-decoration: none;
+}
